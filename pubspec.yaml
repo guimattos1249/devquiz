@@ -1,4 +1,4 @@
-name: DevQuiz
+name: dev_quiz
 description: DevQuiz - Gui DEV
 version: 1.0.0+1
 
@@ -18,5 +18,8 @@ dev_dependencies:
 flutter:
   assets:
     - assets/images/
+    - assets/database/
+    - assets/database/quizzes.json
+    - assets/database/user.json
 
   uses-material-design: true
